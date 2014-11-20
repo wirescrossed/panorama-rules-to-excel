@@ -20,3 +20,11 @@ Usage
       
       i.e. pan_to_excel.py --apikey "23j4kl2j34klj2kl4hf5yf" --firewall "Prod
       firewall 1" --panorama "https://panorama.somewhere.com
+
+Dependencies
+============
+Python with the following modules:
+*requests
+*ElementTree
+*xlsxwriter
+*argparse
