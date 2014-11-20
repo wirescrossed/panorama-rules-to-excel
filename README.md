@@ -24,7 +24,8 @@ Usage
 Dependencies
 ============
 Python with the following modules:
-.*requests
-.*ElementTree
-.*xlsxwriter
-.*argparse
+
+* requests
+* ElementTree
+* xlsxwriter
+* argparse
