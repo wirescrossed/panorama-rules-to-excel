@@ -108,7 +108,7 @@ class Spreadsheet(object):
 
 def commandlineparser():
     global args
-    parser = argparse.ArgumentParser(description='Convert Palo Alto Network Firewall rules from Panorama to Microsoft Excel.', epilog='i.e. pan_to_excel.py --apikey "23j4kl2j34klj2kl4hf5yf" --firewall "Prod firewall 1" --panorama "https://panorama.somewhere.com')
+    parser = argparse.ArgumentParser(description='Convert Palo Alto Networks Firewall rules from Panorama to Microsoft Excel.', apilog='i.e. pan_to_excel.py --apikey "23j4kl2j34klj2kl4hf5yf" --firewall "Prod firewall 1" --panorama "https://panorama.somewhere.com')
     parser.add_argument('-k', '--apikey', required=True, help='PAN API Token Key')
     parser.add_argument('-f', '--firewall', required=True, help='Firewall Name')
     parser.add_argument('-p', '--panorama', required=True, help='Panorama Managment URL')
