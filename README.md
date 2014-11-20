@@ -5,9 +5,9 @@ Create an Excel Spreadsheet from your firewall rules in Palo Alto Networks Panor
 
 Usage
 =====
-  usage: pan_to_excel.py [-h] -k APIKEY -f FIREWALL -p PANORAMA
-  
-  Convert Palo Alto Network Firewall rules from Panorama to Microsoft Excel.
+    usage: pan_to_excel.py [-h] -k APIKEY -f FIREWALL -p PANORAMA
+    
+    Convert Palo Alto Network Firewall rules from Panorama to Microsoft Excel.
   
   optional arguments:
     -h, --help            show this help message and exit
